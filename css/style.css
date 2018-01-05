@@ -39,6 +39,14 @@ h6 {
   font-style: normal;
 }
 
+h3 a {
+  color: #333;
+}
+
+h3 a:hover {
+  text-decoration: none;
+}
+
 #back-to-top {
   text-align: center;
   width: 45px;
@@ -472,6 +480,49 @@ input[type=submit] {
   padding-bottom: 10px;
   color: #3498db;
   font-size: 40px;
+}
+
+#header-title {
+  text-align: center;
+  margin-bottom: 73px;
+}
+
+#wrap-header-title-img {
+  width: 100%;
+  height: 380px;
+  overflow: hidden;
+}
+
+#wrap-header-title-img::-webkit-scrollbar {
+  display: none;
+}
+
+#header-title-content {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+#header-title-content h3 {
+  font-size: 30px;
+  color: #FFF;
+  line-height: 42px;
+  margin: 0 0 50px;
+  font-family: Montserrat;
+}
+
+#header-title-content ul {
+  padding: 0;
+}
+
+#header-title-content ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+#header-title-content ul li a {
+  color: #fff;
 }
 
 .heading:after,
@@ -972,6 +1023,24 @@ footer #list-social-icon li#google-icon:hover a {
   color: #fff;
   padding: 30px 0;
   border-top: 1px solid transparent;
+}
+
+#certificate-content {
+  margin-bottom: 100px;
+}
+
+.content-404 h1 {
+  font-size: 66px;
+  line-height: 81px;
+  margin: 0 0 6px;
+  color: #3498db;
+}
+
+.content-404 .intro {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 62px;
+  margin-bottom: 31px;
 }
 
 @media only screen and (max-width: 991px) {
