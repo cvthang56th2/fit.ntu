@@ -437,6 +437,7 @@ input[type=submit] {
   color: #FFF;
   line-height: 48px;
   margin: 0 0 31px;
+  text-shadow: 1px 1px rgb(133, 160, 255);
 }
 
 #intro-slide .carousel-caption .description {
@@ -444,6 +445,7 @@ input[type=submit] {
   color: #FFF;
   line-height: 28px;
   margin: 0 0 32px;
+  text-shadow: 1px 1px rgb(133, 160, 255);
 }
 
 #intro-slide .carousel-caption .slider-button {
@@ -808,6 +810,7 @@ h3.border-left {
 }
 
 #slogan-content h3 {
+  text-shadow: 1px 1px rgb(133, 160, 163);
   font-size: 30px;
   color: #FFF;
   line-height: 42px;
@@ -1215,7 +1218,7 @@ blockquote {
     font-size: 20px;
     color: #FFF;
     line-height: normal;
-    margin: 0px 0 10px
+    margin: 0px 0 10px;
   }
   #intro-slide .carousel-caption .slider-button {
     line-height: 40px;
