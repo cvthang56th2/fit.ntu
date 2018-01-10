@@ -27,6 +27,10 @@ a {
   transition: all .5s;
 }
 
+#main-content {
+  margin-bottom: 50px;
+}
+
 h1,
 h2,
 h3,
@@ -483,7 +487,7 @@ input[type=submit] {
 
 #header-title {
   text-align: center;
-  margin-bottom: 73px;
+  margin-bottom: 50px;
 }
 
 #wrap-header-title-img {
@@ -499,7 +503,7 @@ input[type=submit] {
 #header-title-content {
   position: absolute;
   top: 50%;
-  left: 15%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -509,6 +513,7 @@ input[type=submit] {
   line-height: 42px;
   margin: 0 0 50px;
   font-family: Montserrat;
+  text-shadow: 1px 1px rgb(133, 160, 163);
 }
 
 #header-title-content ul {
@@ -1208,6 +1213,124 @@ blockquote {
 
 #social-div-content ul li a:hover {
   text-decoration: none;
+}
+
+.bomon {
+  margin-top: 30px;
+  position: relative;
+  ;
+}
+
+.bomon img {
+  opacity: 0.5;
+  box-shadow: 2px 2px 2px;
+  border: 1px solid #333333;
+}
+
+.wrap-bomon-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.wrap-bomon-content a {
+  color: #333;
+}
+
+.wrap-bomon-content a:hover {
+  text-decoration: none;
+}
+
+.left-sidebar {
+  border-right: 1px solid black;
+}
+
+.left-sidebar ul {
+  list-style: none;
+}
+
+.left-sidebar-header {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #333333;
+}
+
+.left-sidebar ul li {
+  border-bottom: 1px solid #333333;
+  padding: 10px;
+}
+
+.left-sidebar ul li a {
+  color: #333;
+}
+
+.left-sidebar ul li a:hover {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+#bo-mon-gioi-thieu {
+  margin-bottom: 20px;
+}
+
+#bo-mon-gioi-thieu p {
+  text-indent: 30pt;
+}
+
+.bo-mon-tin-tuc-content {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333333;
+}
+
+.bo-mon-tin-tuc-content p {
+  text-indent: 30pt;
+}
+
+.bo-mon-nhan-su-content {
+  margin-bottom: 20px;
+}
+
+.nhan-su-hoc-vi {
+  line-height: 25px;
+}
+
+#list-khoa-va-doanh-nghiep {
+  margin-top: 30px;
+}
+
+#list-khoa-va-doanh-nghiep li {
+  border: none;
+}
+
+#hop-tac-doi-ngoai-content p {
+  text-indent: 30pt;
+}
+
+#hinh-anh-hop-tac {
+  padding: 5%;
+}
+
+#hinh-anh-hop-tac div {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#hop-tac-doi-ngoai ol>li {
+  font-weight: bold;
+}
+
+#hop-tac-doi-ngoai ol li {
+  margin-top: 20px;
+}
+
+#hop-tac-doi-ngoai table {
+  margin-top: 20px;
+}
+
+.txt-indent p {
+  text-indent: 30pt;
 }
 
 @media only screen and (max-width: 1143px) {
